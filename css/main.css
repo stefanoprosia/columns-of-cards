@@ -20,3 +20,39 @@ h3 {
   font-style: italic;
   margin: 0;
 }
+
+header {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+body {
+  background-color: #f2f2f2;
+  margin: 0;
+  overflow: hidden;
+}
+
+section {
+  float: left;
+  width: 25%;
+}
+
+img {
+  width: 30%;
+  display: block;
+  margin-bottom: 2em;
+  margin-right: 9em;
+  margin-left: 2em;
+}
+
+body > section:last-child {
+  background-color: #999;
+}
+
+body > section:nth-child(3) {
+  background-color: #ccc;
+}
+
+body > section:nth-child(4) {
+  background-color: #aaa;
+}
