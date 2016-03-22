@@ -56,3 +56,33 @@ body > section:nth-child(3) {
 body > section:nth-child(4) {
   background-color: #aaa;
 }
+
+.btn {
+  width: 25%;
+  font-size: 0.875em;
+  background-color: #e2e2e2;
+  text-align: left;
+  overflow: hidden;
+  float: left;
+  border-left: .5px solid #000;
+  border-right: .5px solid #000;
+}
+
+.btn-small {
+  width: 25%;
+  font-size: 0.875em;
+  background-color: #333;
+  border-left: .5px solid #000;
+  border-right: .5px solid #000;
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  border: 3px;
+  border-radius: 8px;
+  padding: 1em;
+}
+
+.btn:hover {
+  display: inline-block;
+  background-color: #000;
+}
